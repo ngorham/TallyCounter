@@ -72,10 +72,11 @@ public class Utilities {
     }
     //Share intent
     public static void shareApp(Context context){
+        String download = context.getResources().getString(R.string.download_link);
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, "Download this app!");
+        intent.putExtra(Intent.EXTRA_TEXT, download);
         context.startActivity(intent);
     }
     //Rate us

@@ -2,6 +2,7 @@
     <string name="app_name">Tally Counter</string>
     <string name="website">http://www.ngorham.net</string>
     <string name="play_store">"https://play.google.com/store/apps/details?id=net.ngorham.tallycounter"</string>
+    <string name="download_link">Download this app!\nhttps://play.google.com/store/apps/details?id=net.ngorham.tallycounter</string>
     <!-- Action bar -->
     <string name="add_counter">Add Counter</string>
     <string name="edit_counter">Edit Counter</string>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorDivider">#424242</color>
+    <color name="colorRedPrimary">#F44336</color>
+    <color name="colorRedPrimaryDark">#D32F2F</color>
+    <color name="colorRedPrimaryLight">#EF5350</color>
+    <color name="colorGreenPrimary">#4CAF50</color>
+    <color name="colorGreenPrimaryDark">#388E3C</color>
+    <color name="colorGreenPrimaryLight">#66BB6A</color>
+    <color name="colorBluePrimary">#2196F3</color>
+    <color name="colorBluePrimaryDark">#1976D2</color>
+    <color name="colorBluePrimaryLight">#42A5F5</color>
+    <color name="colorYellowPrimary">#FFEB3B</color>
+    <color name="colorYellowPrimaryDark">#FBC02D</color>
+    <color name="colorYellowPrimaryLight">#FFEE58</color>
+    <color name="colorOrangePrimary">#FF9800</color>
+    <color name="colorOrangePrimaryDark">#F57C00</color>
+    <color name="colorOrangePrimaryLight">#FFA726</color>
+    <color name="colorPurplePrimary">#673AB7</color>
+    <color name="colorPurplePrimaryDark">#512DA8</color>
+    <color name="colorPurplePrimaryLight">#7E57C2</color>
+    <color name="colorBlackPrimary">#333</color>
+    <color name="colorBlackPrimaryDark">#000</color>
+    <color name="colorBlackPrimaryLight">#555</color>
+    <color name="colorGrayPrimary">#9E9E9E</color>
+    <color name="colorGrayPrimaryDark">#616161</color>
+    <color name="colorGrayPrimaryLight">#BDBDBD</color>
+    <color name="colorWhitePrimary">#EEE</color>
+    <color name="colorWhitePrimaryDark">#BCBCBC</color>
+    <color name="colorWhitePrimaryLight">#FFF</color>
+</resources>

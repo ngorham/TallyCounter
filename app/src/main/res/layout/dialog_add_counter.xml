@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/category_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <EditText
+        android:id="@+id/category_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_category"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/name_edit"
+        app:layout_constraintBottom_toTopOf="@id/count_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/start_count_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/start_count"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/increment_by_edit"
+        app:layout_constraintEnd_toStartOf="@id/count_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/category_edit" />
+    <EditText
+        android:id="@+id/count_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="@string/hint_count"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintTop_toBottomOf="@id/category_edit"
+        app:layout_constraintBottom_toTopOf="@id/increment_by_edit"
+        app:layout_constraintStart_toEndOf="@id/start_count_text"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/increment_by_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/increment_by"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/color_img"
+        app:layout_constraintEnd_toStartOf="@id/increment_by_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/count_edit" />
+    <EditText
+        android:id="@+id/increment_by_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="@string/hint_count"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintTop_toBottomOf="@id/count_edit"
+        app:layout_constraintBottom_toTopOf="@id/color_img"
+        app:layout_constraintStart_toEndOf="@id/increment_by_text"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/color_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/dialog_color"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/increment_by_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/color_img"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    <ImageView
+        android:id="@+id/color_img"
+        android:background="@color/colorRedPrimary"
+        android:contentDescription="@string/dialog_color"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:onClick="colorSelectDialog"
+        app:layout_constraintTop_toBottomOf="@id/increment_by_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/color_text"/>
+</android.support.constraint.ConstraintLayout>

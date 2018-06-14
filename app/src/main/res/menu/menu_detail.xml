@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_counter"
+        android:title="@string/edit_counter"
+        android:icon="@drawable/ic_edit_black_18dp"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/reset_counter"
+        android:title="@string/reset_counter"
+        android:icon="@drawable/ic_refresh_black_18dp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/delete_counter"
+        android:title="@string/delete_counter"
+        android:icon="@drawable/ic_delete_black_18dp"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/rate_us"
+        android:title="@string/rate_us"
+        android:icon="@drawable/ic_star_black_18dp"
+        android:orderInCategory="98"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/app_share"
+        android:title="@string/app_share"
+        android:icon="@drawable/ic_share_variant_black_18dp"
+        android:orderInCategory="99"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/app_about"
+        android:title="@string/app_about"
+        android:icon="@drawable/ic_information_black_18dp"
+        android:orderInCategory="100"
+        app:showAsAction="never|withText" />
+</menu>
